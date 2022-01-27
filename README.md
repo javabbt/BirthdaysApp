@@ -1,6 +1,8 @@
 # Chalkboard Birthdays App Challange
 
 This is an app that utilises a web api to provide the user an ordered list of birthdays youngest to oldest
+![alt text](https://github.com/javabbt/BirthdaysApp/blob/master/WhatsApp%20Image%202022-01-27%20at%205.37.57%20PM.jpeg)
+![alt text](https://github.com/javabbt/BirthdaysApp/blob/b9c9cbf9455889e9391ac6e485947a56c3f0bb2b/WhatsApp%20Image%202022-01-27%20at%205.37.57%20PM%20(1).jpeg)
 
 ## How to install and run the project
 
@@ -19,11 +21,11 @@ I also did not incorporate local storage of the data once it had been recieved m
 
 ## If I had more time
 
-If I had more time I would have added the ability of local storage either with user defaults or core data so the user could use the app without a network once the data had been picked up the first time and then only checked the api for delta changes.
-This would have also allowed for the ability of adding new data into the app directly by the user which would become a core part of the user experience and allow the app to be used in isolation without the API
-I would have also added the ability of the intial icons to be replaced with images if availble from the API allowing the user to see the person whos birthday is being listed
-I would also add more complicated Tests but this is a pretty small project
-I would also better handle pagination and sorting
+If I had more time I would have added the ability of local storage either with user defaults or core data so the user could use the app without a network once the data had been picked up the first time and then only checked the api for delta changes.\
+This would have also allowed for the ability of adding new data into the app directly by the user which would become a core part of the user experience and allow the app to be used in isolation without the API.\
+I would have also added the ability of the intial icons to be replaced with images if availble from the API allowing the user to see the person whos birthday is being listed.\
+I would also add more complicated Tests but this is a pretty small project.\
+I would also better handle pagination and sorting.\
 
 ## Contact Details
 
