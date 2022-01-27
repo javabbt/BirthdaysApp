@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Birthdays App</string>
+    <string name="birthdays">Birthdays</string>
 </resources>

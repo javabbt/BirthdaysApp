@@ -8,6 +8,10 @@ plugins {
 android {
     compileSdk 31
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.birthdaysapp"
         minSdk 21
@@ -63,4 +67,6 @@ dependencies {
     //room
     implementation "androidx.room:room-runtime:2.4.1"
     annotationProcessor "androidx.room:room-compiler:2.4.1"
+
+    implementation "io.getstream:avatarview-coil:1.0.2"
 }

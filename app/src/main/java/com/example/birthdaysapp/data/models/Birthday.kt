@@ -1,6 +1,6 @@
 package com.example.birthdaysapp.data.models
 
-data class ApiResponse(
+data class Birthday(
     val dob: Dob,
     val name: Name
 )
