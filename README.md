@@ -23,6 +23,7 @@ If I had more time I would have added the ability of local storage either with u
 This would have also allowed for the ability of adding new data into the app directly by the user which would become a core part of the user experience and allow the app to be used in isolation without the API
 I would have also added the ability of the intial icons to be replaced with images if availble from the API allowing the user to see the person whos birthday is being listed
 I would also add more complicated Tests but this is a pretty small project
+I would also better handle pagination and sorting
 
 ## Contact Details
 
