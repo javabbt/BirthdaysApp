@@ -10,7 +10,7 @@ interface Api {
 
     @GET("/api")
     suspend fun getBirthdays(
-        @Query("results")results:Int=5,
+        @Query("results")results:Int=7,
         @Query("seed")seed:String="chalkboard",
         @Query("inc")inc:String="name,dob"
     ) : Response<BirthdayResponse>

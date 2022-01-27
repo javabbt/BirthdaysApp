@@ -3,4 +3,5 @@
     <string name="birthdays">Birthdays</string>
     <string name="go_back">Go back</string>
     <string name="age">%1$d YEARS OLD</string>
+    <string name="name">%1$s %2$s</string>
 </resources>

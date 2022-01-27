@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.example.birthdaysapp.R
 import com.example.birthdaysapp.data.models.Birthday
 import com.example.birthdaysapp.databinding.ItemBirthdayBinding
 import com.example.birthdaysapp.ui.HomeFragment
@@ -52,8 +53,8 @@ class BirthdaysAdapter @Inject constructor() : RecyclerView.Adapter<BirthdaysAda
         holder.binding.apply {
             val bd = birthdays[position]
             profile.avatarInitials = bd.name.first[0]+""+bd.name.last[0]
-            name.text = bd.name.first ?: bd.name.last
-            birthday.text = bd.dob.date
+            name.text = String.format(fragment.getString(R.string.name), bd.name.first ,  bd.name.last)
+            birthday.text = bd.dob.date.substring(0,10)
             holder.itemView.setOnClickListener {
                 (fragment as HomeFragment).goToDetails(bd)
             }

@@ -53,7 +53,7 @@ class HomeFragment : Fragment() {
                 ApiStatus.SUCCESS -> {
                     val data = result.data
                     binding.progressBar.isVisible = false
-                    birthdayAdapter.birthdays = data!!.results
+                    birthdayAdapter.birthdays = data!!
                 }
                 ApiStatus.ERROR -> {
                     binding.progressBar.isVisible = false
