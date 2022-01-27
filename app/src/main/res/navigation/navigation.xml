@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_detailsFragment"
             app:destination="@id/detailsFragment" />
+        <argument
+            android:name="birthday"
+            app:argType="com.example.birthdaysapp.data.models.Birthday" />
     </fragment>
 
     <fragment
